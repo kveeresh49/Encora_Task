@@ -1,0 +1,44 @@
+/* You can add global styles to this file, and also import other style files */
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffff;
+}
+
+
+table {
+    font-size: 16px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+ th {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: #04AA6D;
+    color: white;
+}
+
+button {
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-left: 19px;
+    padding-right: 19px;
+    border: 1px solid #cccccc;
+    border-radius: 20px;
+    background-color: #04AA6D;
+    color: #ffffff;
+    border-color: #04AA6D;
+}
